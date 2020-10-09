@@ -22,7 +22,7 @@ function! forest_night#get_configuration() "{{{
 endfunction "}}}
 function! forest_night#get_palette() "{{{
   return {
-        \ 'bg0':        ['#323d43',   '235',  'Black'],
+        \ 'bg0':        ['#1c2325',   '235',  'Black'],
         \ 'bg1':        ['#3c474d',   '236',  'DarkGrey'],
         \ 'bg2':        ['#465258',   '237',  'DarkGrey'],
         \ 'bg3':        ['#505a60',   '238',  'DarkGrey'],
