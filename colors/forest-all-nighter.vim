@@ -63,7 +63,7 @@ highlight! link lCursor Cursor
 highlight! link CursorIM Cursor
 call forest_all_nighter#highlight('CursorColumn', s:palette.none, s:palette.bg1)
 call forest_all_nighter#highlight('CursorLine', s:palette.none, s:palette.bg1)
-call forest_all_nighter#highlight('LineNr', s:palette.grey0, s:palette.none)
+call forest_all_nighter#highlight('LineNr', s:palette.bg3, s:palette.none)
 if (&relativenumber == 1 && &cursorline == 0) || s:configuration.sign_column_background !=# 'default'
   call forest_all_nighter#highlight('CursorLineNr', s:palette.fg, s:palette.none)
 else
